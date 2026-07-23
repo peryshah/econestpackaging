@@ -1,0 +1,370 @@
+/*=========================================
+            TABLETS
+=========================================*/
+
+@media (max-width:1024px){
+
+.container{
+    width:90%;
+}
+
+.hero-content h1,
+.page-hero-content h1{
+    font-size:48px;
+}
+
+.section-title h2{
+    font-size:42px;
+}
+
+.showcase-content h2{
+    font-size:42px;
+}
+
+.footer-content{
+    grid-template-columns:1fr;
+    text-align:center;
+}
+
+.footer-logo p{
+    margin:auto;
+}
+
+}
+
+
+/*=========================================
+            MOBILE
+=========================================*/
+
+@media (max-width:768px){
+
+.container{
+    width:92%;
+}
+
+/* Navigation */
+
+.navbar{
+
+    flex-direction:column;
+
+    gap:20px;
+
+    padding:20px 0;
+
+}
+
+.nav-links{
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:15px;
+
+}
+
+
+/* Hero */
+
+.hero,
+.page-hero{
+
+    min-height:70vh;
+
+}
+
+.hero-content,
+.page-hero-content{
+
+    text-align:center;
+
+}
+
+.hero-content h1,
+.page-hero-content h1{
+
+    font-size:38px;
+
+    line-height:1.2;
+
+}
+
+.hero-content p,
+.page-hero-content p{
+
+    font-size:18px;
+
+}
+
+
+/* Buttons */
+
+.hero-buttons,
+.cta-buttons{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.btn{
+
+    width:100%;
+
+    max-width:300px;
+
+}
+
+
+/* Sections */
+
+section{
+
+    padding:70px 0;
+
+}
+
+.section-title h2{
+
+    font-size:34px;
+
+}
+
+.section-title p{
+
+    font-size:18px;
+
+}
+
+
+/* Product Showcase */
+
+.product-showcase .container,
+.product-showcase.alternate .container{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:40px;
+
+}
+
+.showcase-image{
+
+    order:1;
+
+}
+
+.showcase-content{
+
+    order:2;
+
+}
+
+.showcase-content{
+
+    text-align:center;
+
+}
+
+.showcase-content h2{
+
+    font-size:34px;
+
+}
+
+.tagline{
+
+    font-size:22px;
+
+}
+
+.description{
+
+    font-size:17px;
+
+}
+
+
+/* Feature Grid */
+
+.feature-grid{
+
+    grid-template-columns:1fr;
+
+    gap:15px;
+
+}
+
+
+/* Sizes */
+
+.sizes{
+
+    justify-content:center;
+
+}
+
+
+/* Stats */
+
+.stats{
+
+    grid-template-columns:1fr 1fr;
+
+    gap:25px;
+
+}
+
+
+/* About */
+
+.about-content{
+
+    grid-template-columns:1fr;
+
+}
+
+.about-image{
+
+    margin-bottom:30px;
+
+}
+
+
+/* Why Choose Us */
+
+.why-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+/* Product Grid */
+
+.products-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+/* Industries */
+
+.industry-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+/* Contact */
+
+.contact-wrapper{
+
+    grid-template-columns:1fr;
+
+}
+
+
+/* Footer */
+
+.footer{
+
+    text-align:center;
+
+}
+
+.footer-content{
+
+    grid-template-columns:1fr;
+
+    gap:40px;
+
+}
+
+.footer-logo img{
+
+    margin:auto;
+
+}
+
+.footer-bottom{
+
+    margin-top:30px;
+
+}
+
+}
+
+
+/*=========================================
+        SMALL MOBILES
+=========================================*/
+
+@media (max-width:480px){
+
+.hero-content h1,
+.page-hero-content h1{
+
+    font-size:30px;
+
+}
+
+.section-title h2{
+
+    font-size:28px;
+
+}
+
+.showcase-content h2{
+
+    font-size:28px;
+
+}
+
+.hero-content p,
+.page-hero-content p{
+
+    font-size:16px;
+
+}
+
+.tagline{
+
+    font-size:20px;
+
+}
+
+.description{
+
+    font-size:16px;
+
+}
+
+.stats{
+
+    grid-template-columns:1fr;
+
+}
+
+.btn{
+
+    width:100%;
+
+}
+
+.sizes span{
+
+    font-size:13px;
+
+    padding:8px 14px;
+
+}
+
+}
